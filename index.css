@@ -1,0 +1,185 @@
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: orangered;
+}
+
+article {
+    color: blue;
+}
+
+.bold {
+    font-size: x-large;
+}
+
+.green.bold {
+    font-size: x-large;
+    color: green;
+}
+
+p {
+    color: magenta;
+}
+
+
+
+ul {
+    font-size: x-large;
+}
+
+ol {
+    color: black;
+    font-size: large;
+}
+
+#years-of-service {
+    color: blue;
+    font-size: larger;
+
+}
+
+#contact {
+    font-size: xx-large;
+    color: darkgoldenrod;
+}
+
+.button {
+    font-size: xx-large;
+}
+
+#message {
+    width: 300px;
+    height: 80px;
+}
+
+#email {
+    width: 300px;
+    height: 25px;
+}
+
+#name {
+    width: 300px;
+    height: 25px;
+}
+
+time {
+    color: darkmagenta;
+    font-size: x-large;
+}
+
+a:hover {
+    color: hotpink;
+  }
+  
+body {
+    background-color: whitesmoke;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: aqua;
+}
+
+#black {
+    color: black;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.308);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+  }
+
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.308);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+  }
+
+.content-aboutme {
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+.box {
+    width: 40px;
+    border: 10px solid gainsboro;
+    padding: 18px;
+    margin: 10px;
+}
+
+.container-box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary-x-light);
+  }
+
+#comment {
+    padding-right: 35px;
+}
+
+#like {
+    padding-left: 35px;
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+      background-color: blanchedalmond;
+    }
+    
+    .container-box {
+        display: contents;
+        justify-content: flex-end;  
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.308);
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        padding: 4px;
+        font-size: 25px;
+        text-align: left;
+        color: black;
+    }
+
+    ul {
+        font-size: small;
+    }
+
+    .content-aboutme {
+        font-size: small;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: gray;
+      } 
+      
+  }
+
+  @media only screen and (min-width: 1080px) {
+    body {
+      background-color: whitesmoke;
+    }
+
+    #message {
+        width: 260px
+    }
+    
+  }
